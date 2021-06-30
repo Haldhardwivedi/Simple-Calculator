@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Calculator app</title>
+</head>
+<body>
+  <div class="main">
+    <span clas="main-head">calc</span>
+    <div class="btn">
+      <input id="result"  class="input" type="text" readonly/>
+      <table border="0">
+        <tr>
+           <td><input class="btns" type="button" value="1" onclick="addkey('1')"/> </td>
+           <td><input class="btns" type="button" value="2" onclick="addkey('2')"/> </td>
+           <td><input class="btns" type="button" value="3" onclick="addkey('3')"/> </td>
+           <td><input class="obtns" type="button" value="/" onclick="addkey('/')"/> </td>
+           <td><input class="del-btn" type="button" value="DEL" onclick="delkey()"/> </td>
+        </tr>
+        <tr>
+           <td><input class="btns" type="button" value="4" onclick="addkey('4')"/> </td>
+           <td><input class="btns" type="button" value="5" onclick="addkey('5')"/> </td>
+           <td><input class="btns" type="button" value="6" onclick="addkey('6')"/> </td>
+           <td><input class="obtns" type="button" value="-" onclick="addkey('-')"/> </td>
+           <td rowspan="3"><input class="cls-btn" type="button" value="AC" onclick="clearkey()"/></td>
+        </tr>
+        <tr>
+           <td><input class="btns" type="button" value="7" onclick="addkey('7')"/> </td>
+           <td><input class="btns" type="button" value="8" onclick="addkey('8')"/> </td>
+           <td><input class="btns" type="button" value="9" onclick="addkey('9')"/> </td>
+           <td><input class="obtns" type="button" value="+" onclick="addkey('+')"/> </td>
+        </tr>
+        <tr>
+          <td><input class="btns" type="button" value="." onclick="addkey('.')"/> </td>
+          <td><input class="btns" type="button" value="0" onclick="addkey('0')"/> </td>
+          <td><input class="btns" type="button" value="=" onclick="solve()"/> </td>
+          <td><input class="obtns" type="button" value="*" onclick="addkey('*')"/> </td>
+        </tr>
+     </table>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>

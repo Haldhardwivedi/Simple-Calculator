@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap');
+html{
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+    margin:0%;
+    background-color: hsl(222, 26%, 31%);
+    color: white;
+}
+.main
+{
+    position:absolute;
+    left: 400px;
+    top: 200px;
+    width:400px;
+    display:inline-block;
+}
+
+.input
+{
+    width:500px;
+    height:60px;
+    background-color:  hsl(268, 71%, 12%);
+    margin:20px 0 20px 0;
+    text-align: right;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+}
+.btns,.obtns
+{
+    width: 80px;
+    height: 45px;
+    margin: 10px;
+    background-color:hsl(45, 7%, 89%);
+    box-shadow: 2px 5px  hsl(35, 11%, 61%);
+    font-size:25px;
+    border-radius: 8px;
+}
+
+.cls-btn
+{
+    width:80px;
+    height:180px;
+    background-color:greenyellow;
+    box-shadow: 2px 5px  hsl(35, 11%, 61%);
+    font-size:25px;
+    border-radius: 8px;
+}
+
+.del-btn
+{
+    width:80px;
+    height: 45px;
+    background-color: hsl(225, 21%, 49%);
+    box-shadow: 2px 5px   hsl(224, 28%, 35%);
+    font-size:25px;
+    border-radius: 8px;
+}
+.obtns
+{
+    background-color: hsl(52, 100%, 62%);
+}
